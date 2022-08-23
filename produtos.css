@@ -4,6 +4,11 @@ header{
 }
 #logo{
 	width: 50%;
+	box-sizing: border-box;
+   border: 6px solid #000080;
+   border-radius: 10px;
+   border-style: bold;
+	border-color: #000000
 }
 .caixa{
 	position: relative;
@@ -55,11 +60,11 @@ nav a{
 
 
 	.produtos li:hover{
-		border-color: #C78C19;
+		border-color: #000000;
 	}
 
 	.produtos li:active{
-		border-color: #00BFFF
+		border-color: 	#00FA9A
 	}
 			.produtos li:hover h2{
 				 text-transform:uppercase;
